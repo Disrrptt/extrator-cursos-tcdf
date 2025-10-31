@@ -1,24 +1,53 @@
-# Ambiente virtual
+# --- Ambientes virtuais ---
 .venv/
-env/
 venv/
+env/
 
-# Cache do Python
+# --- Cache e temporários ---
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
-
-# Temporários do sistema
-.DS_Store
-Thumbs.db
-
-# Saídas e arquivos gerados
-*.xlsx
-*.csv
+*.pyd
 *.log
-debug_checagem/
-pdfs_entrada/
 
-# Configs locais
-.idea/
+# --- Saídas e resultados ---
+*.xlsx
+*.xls
+*.csv
+*.tmp
+*.bak
+
+# --- Diretórios de entrada e depuração ---
+pdfs_entrada/
+debug_checagem/
+debug/
+output/
+export/
+dados_extraidos/
+dados_extraidos.xlsx
+
+# --- Configurações locais ---
+*.ini
+*.cfg
+*.env
+.env.local
 .vscode/
+.idea/
+
+# --- Arquivos do Windows / sistema ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# --- Compilados / pacotes ---
+build/
+dist/
+*.egg-info/
+*.spec
+
+# --- Arquivos temporários do Tkinter ---
+*.png
+*.jpg
+*.jpeg
+*.bmp
+

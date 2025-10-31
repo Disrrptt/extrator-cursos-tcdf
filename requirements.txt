@@ -1,6 +1,14 @@
-pandas
-openpyxl
+# --- Núcleo de dados ---
+pandas>=2.2.0
+openpyxl>=3.1.2
+
+# --- Leitura e processamento de PDF ---
 pdfplumber>=0.11.2
-pytesseract
-pillow
-pdf2image
+pdf2image>=1.17.0
+pillow>=10.0.0
+
+# --- OCR (caso o PDF venha escaneado) ---
+pytesseract>=0.3.10
+
+# --- Interface gráfica moderna ---
+ttkbootstrap>=1.10.1
