@@ -1,9 +1,7 @@
 # Extrator de Cursos em PDFs – TCDF
 
 Aplicação em **Python** com interface moderna (**ttkbootstrap**) para extrair informações de “Papeletas de Benefícios – AQ”/relacionados (TCDF).  
-Faz leitura estruturada dos PDFs, detecta cursos por faixa de Y, interpreta **checkboxes** (Presencial/Misto/À distância), e exporta tudo para **Excel (.xlsx)**.
-
-> **Destaque**: extração robusta de **Lotação** mesmo quando o valor quebra de linha e vem acompanhado de “Ramal: …” – o código limpa e mantém apenas a lotação (ex.: `SECOF`).
+Faz leitura estruturada dos PDFs, detecta cursos por faixa de Y, e exporta tudo para **Excel (.xlsx)**.
 
 ---
 
