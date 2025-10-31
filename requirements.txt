@@ -1,0 +1,6 @@
+pandas
+openpyxl
+pdfplumber>=0.11.2
+pytesseract
+pillow
+pdf2image
